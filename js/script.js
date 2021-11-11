@@ -21,15 +21,11 @@ const lastName = prompt ('Qual\'è il tuo cognome?');
 const favoriteColor = prompt ('Qual\'è il tuo colore preferito?');
 
 // genero la password
+const finalPassword = `${userName}${lastName}${favoriteColor}${passwordNumber}`;
+
 
 
 // genero un messaggio per l'utente
-
-
-
-
-// CICLO PROGRAMMA
-const finalPassword = `${userName}${lastName}${favoriteColor}${passwordNumber}`;
 
 const userMessage = 'la sua nuova password è: ';
 
