@@ -27,7 +27,7 @@ const finalPassword = `${userName}${lastName}${favoriteColor}${passwordNumber}`;
 
 // genero un messaggio per l'utente
 
-const userMessage = 'la sua nuova password è: ';
+const userMessage = `la sua nuova password è: ${finalPassword}`;
 
 
 
@@ -36,4 +36,4 @@ const userMessage = 'la sua nuova password è: ';
 
 // OUTPUT
 
-document.getElementById('yourPassword').innerHTML = userMessage + finalPassword;
+document.getElementById('yourPassword').innerHTML = userMessage;
