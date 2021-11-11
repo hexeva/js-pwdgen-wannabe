@@ -20,8 +20,19 @@ const lastName = prompt ('Qual\'è il tuo cognome?');
 
 const favoriteColor = prompt ('Qual\'è il tuo colore preferito?');
 
+// genero la password
+
+const finalPassword = `${userName}${lastName}${favoriteColor}${passwordNumber}`;
+
+// genero un messaggio per l'utente
+
+const userMessage = 'la sua nuova password è: ';
+
 
 
 // CICLO PROGRAMMA
+
+document.getElementById('yourPassword').innerHTML = userMessage + finalPassword;
+
 
 // OUTPUT
